@@ -16,6 +16,6 @@ public class JenkinsCalcTest {
 	// public void subtractTest() {
 	// 	JenkinsCal myCalc = new JenkinsCal();
 	// 	assertEquals(5, myCalc.subtractNumbers(10, 5));
-	}
+	// }
 
 }
