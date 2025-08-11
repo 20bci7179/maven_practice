@@ -12,10 +12,10 @@ public class JenkinsCalcTest {
 		assertEquals(10, myCalc.addNumbers(5, 5));
 	}
 	
-	// @Test
-	// public void subtractTest() {
-	// 	JenkinsCal myCalc = new JenkinsCal();
-	// 	assertEquals(5, myCalc.subtractNumbers(10, 5));
-	// }
+	@Test
+	public void subtractTest() {
+		JenkinsCal myCalc = new JenkinsCal();
+		assertEquals(5, myCalc.subtractNumbers(10, 5));
+	}
 
 }
