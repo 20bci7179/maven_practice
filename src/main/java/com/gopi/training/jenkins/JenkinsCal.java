@@ -5,7 +5,6 @@ public class JenkinsCal {
 	// addition of 2 numbers
 	public int addNumbers(int num1, int num2) {
 		int a = 20;
-		System.out.println("Nothing");
 		return num1 + num2;
 	}
 	
