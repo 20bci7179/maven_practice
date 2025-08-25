@@ -1,12 +1,12 @@
 pipeline {
     agent any
-    tools {
-        maven 'Maven3'   
-        jdk   'JDK17'   
-    }
-     triggers {
-        pollSCM('* * * * *') // every 1 minute
-    }
+    // tools {
+    //     maven 'Maven3'   
+    //     jdk   'JDK17'   
+    // }
+    //  triggers {
+    //     pollSCM('* * * * *') // every 1 minute
+    // }
     stages {
         stage('Checkout') {
             steps {
