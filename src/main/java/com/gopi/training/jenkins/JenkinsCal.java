@@ -4,7 +4,7 @@ public class JenkinsCal {
 	
 	// addition of 2 numbers
 	public int addNumbers(int num1, int num2) {
-		
+		int a = 10;
 		return num1 + num2;
 	}
 	
